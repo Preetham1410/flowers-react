@@ -1,0 +1,103 @@
+.cartdiv{
+    margin-bottom: 15px;
+}
+
+tr img{
+    height: 200px;
+    width: 200px;
+}
+
+.cartimage{
+    width: 210px;
+}
+
+.cart-head h2{
+    text-align: center;
+    padding: 20px;
+}
+
+table.carttable{
+    border: 1px solid rgb(120, 120, 120);
+    box-shadow: 0px 0px 5px rgb(156, 156, 156) ;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid #909090b1;
+    min-width: 50px;
+    padding: 7px;
+    text-align: center;
+}
+.table-head td{
+    font-weight: 550;
+    text-align: center;
+}
+
+.quaninput{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #b73c3c;
+    border-top: 1px solid #ff8787;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.quanbtn{
+    height: 30px;
+    width: 20px;
+    background-image: linear-gradient(to top, #b73c3c , #ff8787);
+    color: white;
+    border: none;
+    font-weight: 550;
+    font-size: 17px;
+    cursor: pointer;
+}
+.quanbtn.minus{
+    border-radius: 4px 0px 0px 4px;
+}
+.quanbtn.plus{
+    border-radius: 0px 4px 4px 0px;
+}
+.total-items{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: right;
+}
+
+button.checkout{
+    width: 105px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top, #b73c3c , #ff8787);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button.checkout:hover{
+    background-image: linear-gradient(to top, #882d2d , #c46767);
+}
+.removebtn{
+    border: none;
+    background-color: transparent;
+}
+
+.removebtn i{
+    font-size: 25px;
+    color: #b73c3c;
+    cursor: pointer;
+}
+.cartt i{
+    text-align: center;
+}
+
+button.ui.button.orderbut{
+    margin: 10px 10px 10px 60px;
+}

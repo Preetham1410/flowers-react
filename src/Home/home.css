@@ -1,0 +1,73 @@
+div.inpss{
+    /* display: flex; */
+    padding: 30px 20%;
+    align-items: center;
+}
+
+button.ui.button.butts {
+    height: 30px;
+    width: 75px;
+    padding: 0px;
+    border: 2px solid #f98282;
+    background-color: #ffdfeb;
+    color: #e96e6e;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button.ui.button.butts:focus{
+    background-color: #f98282;
+    color: white;
+}
+button.ui.button.butts:hover{
+    background-color: #f98282;
+    color: white;
+}
+.ui.input.inps{
+    width: 89%;
+}
+.ui.input.inps input{
+    height: 30px;
+    border: 2px solid #f98282;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #ffdfdf;
+    padding-left: 10px;
+    outline: none;
+}
+.ui.input.inps input:focus{
+    border: 2px solid #f98282;
+    background-color: #f8d9d9;
+}
+button.ui.button.inps{
+    background-color: #f98282;
+    border: 2px solid #f98282;
+    border-left: none;
+    padding: 0px;
+    height: 30px;
+    width: 10%;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button.ui.button.inps:hover{
+    background-color: #ffdfdf;
+    color: #e96e6e;
+}
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 600px;
+    width: 90%;
+    margin: 0 5%;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
